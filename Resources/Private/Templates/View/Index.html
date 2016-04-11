@@ -1,0 +1,15 @@
+<div class="headline-container">
+    <h1>Stimmen zu<br>Qualityline</h1>
+</div>
+<f:if condition="{reviews}">
+    <div class="testimonial">
+        <f:for each="{reviews}" as="review">
+            <div class="testimonial__item">
+                <blockquote>
+                    <p>{review.reviewText}</p>
+                    <cite>{review.userName}</cite>
+                </blockquote>
+            </div>
+        </f:for>
+    </div>
+</f:if>

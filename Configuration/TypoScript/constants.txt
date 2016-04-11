@@ -1,0 +1,9 @@
+plugin.tx_bwrkfacebookreviews {
+    settings {
+        storagePid = 0
+        facebook {
+            accessToken =
+            pageId =
+        }
+    }
+}

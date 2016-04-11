@@ -1,0 +1,14 @@
+plugin.tx_bwrkfacebookreviews {
+    persistence {
+        storagePid = {$plugin.tx_bwrkfacebookreviews.settings.storagePid}
+    }
+    settings {
+        storagePid = {$plugin.tx_bwrkfacebookreviews.settings.storagePid}
+        facebook {
+            accessToken = {$plugin.tx_bwrkfacebookreviews.settings.facebook.accessToken}
+            pageId = {$plugin.tx_bwrkfacebookreviews.settings.facebook.pageId}
+        }
+    }
+}
+
+module.tx_bwrkfacebookreviews.persistence.storagePid < plugin.tx_bwrkfacebookreviews.persistence.storagePid
