@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0">
+    <file target-language="de" datatype="plaintext" original="messages" date="2016-04-14T16:55:00Z" product-name="bwrk_facebook_reviews">
+        <header/>
+        <body>
+            <trans-unit id="tx_bwrkfacebookreviews_domain_model_review" xml:space="preserve">
+                <target>Facebook Bewertungen</target>
+            </trans-unit>
+			<trans-unit id="tx_bwrkfacebookreviews_domain_model_review.hidden" xml:space="preserve">
+                <target>Verbergen</target>
+            </trans-unit>
+            <trans-unit id="tx_bwrkfacebookreviews_domain_model_review.created_time" xml:space="preserve">
+                <target>Wann wurde der Eintrag erstellt</target>
+            </trans-unit>
+			<trans-unit id="tx_bwrkfacebookreviews_domain_model_review.user_name" xml:space="preserve">
+				<target>Name des Users</target>
+			</trans-unit>
+			<trans-unit id="tx_bwrkfacebookreviews_domain_model_review.rating" xml:space="preserve">
+				<target>Bewertung</target>
+			</trans-unit>
+			<trans-unit id="tx_bwrkfacebookreviews_domain_model_review.review_text" xml:space="preserve">
+				<target>Text</target>
+			</trans-unit>
+        </body>
+    </file>
+</xliff>
