@@ -1,10 +1,10 @@
 {
   "name": "bergwerk/bwrk-facebook-reviews",
   "type": "typo3-cms-extension",
-  "description": "Fetch reviews from facebook",
+  "description": "Fetch facebook reviews for TYPO3 usage",
   "homepage": "https://www.bergwerk.ag/",
   "license": ["GPL-2.0+"],
   "keywords": ["TYPO3 CMS", "reviews", "rating", "facebook", "fetch"],
-  "version": "1.1.0",
+  "version": "1.1.1",
   "minimum-stability":"stable"
 }

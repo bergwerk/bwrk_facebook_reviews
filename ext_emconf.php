@@ -1,9 +1,9 @@
 <?php
 $EM_CONF[$_EXTKEY] = array(
     'title' => 'BERGWERK Facebook Reviews',
-    'description' => '',
+    'description' => 'Fetch facebook reviews for TYPO3 usage',
     'category' => 'plugin',
-    'version' => '1.1.0',
+    'version' => '1.1.1',
     'state' => 'stable',
     'clearcacheonload' => 0,
     'author' => 'Georg Dümmler',
