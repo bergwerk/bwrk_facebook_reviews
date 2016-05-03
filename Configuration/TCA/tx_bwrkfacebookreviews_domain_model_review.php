@@ -15,7 +15,7 @@ $tca->addPassThrough('user_id');
 
 $tca->addCheckField('hidden');
 $tca->addInputField('created_time', $tca->getFieldLabel('created_time'), 0, 30, 255, 1, 'trim');
-$tca->addInputField('user_name', $tca->getFieldLabel('user_name'), 0, 30, 255, 1, 'trim');
+$tca->addInputField('user_name', $tca->getFieldLabel('user_name'), 0, 30, 255, 0, 'trim');
 $tca->addInputField('rating', $tca->getFieldLabel('rating'), 0, 30, 255, 1, 'trim');
 $tca->addTextField('review_text');
 
