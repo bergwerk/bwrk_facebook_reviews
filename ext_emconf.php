@@ -1,13 +1,13 @@
 <?php
+
 $EM_CONF[$_EXTKEY] = array(
     'title' => 'BERGWERK Facebook Reviews',
     'description' => 'Fetch facebook reviews for TYPO3 usage',
     'category' => 'plugin',
-    'version' => '1.1.3',
+    'version' => '1.1.2',
     'state' => 'stable',
-    'clearcacheonload' => 0,
-    'author' => 'Georg Dümmler',
-    'author_email' => 'gd@bergwerk.ag',
+    'author' => 'BERGWERK',
+    'author_email' => 'technik@bergwerk.ag',
     'author_company' => 'BERGWERK Werbeagentur GmbH',
     'constraints' => array(
         'depends' => array(
@@ -15,7 +15,6 @@ $EM_CONF[$_EXTKEY] = array(
             'bwrk_utility' => '1.0.0-1.9.99'
         ),
         'conflicts' => array(),
-        'suggests' => array(
-        )
+        'suggests' => array()
     )
 );
